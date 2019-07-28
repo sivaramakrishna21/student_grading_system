@@ -1,0 +1,16 @@
+Steps to be followed :
+1.Install the xampp file in your personal computer then click setup and run the file.
+2.Now search for xampp control panel and click it.
+3.Start apache,MYSql,FileZilla,Mercury,Tomcat.
+4.Open localdisk C,next xampp,next htdocs and place the mini project files folder in it.
+5.Open chrome type "localhost/mini project files" in url and click enter.
+6.click on Login and enter the username and password.
+7.Click on upload results.
+8.Choose the semester and files you want to upload.click on upload
+9.Go to results and enter your register number.Click on submit
+10.You can see the student results in tabular form.
+11.In order to update results,repeat step 6.
+12.Click on update results and choose the semester and files to upload.
+13.As soon as the results are uploaded,student CGPA is updated.
+14.To check the result repeat step 9
+15.Top 3 students of the semester and range of marks can also be viewed by clicking on their respective buttons.

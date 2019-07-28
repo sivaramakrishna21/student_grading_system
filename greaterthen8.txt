@@ -1,0 +1,32 @@
+<html>
+<body>
+<?php
+	$connect = mysqli_connect("localhost", "root", "", "miniproject");
+	$query="select * from `cgpatable` where cgpa>8";
+	$result = mysqli_query($connect, $query);
+	  ?>
+   <h3 align="center">Deals of the Day</h3>
+   <br />
+   <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+     <tr>
+      <th>Rollno</th>
+      <th>s1</th>
+      
+     </tr>
+     <?php
+     while($row = mysqli_fetch_array($result))
+     {
+	    echo '
+	    <tr>
+	    <td>'.$row["Rollno"].'</td>
+	    <td>'.$row["cgpa"].'</td>
+	    
+	    </tr>
+	    ';
+    }
+    ?>
+    </table>
+   </div>
+  </div>
+</body>
